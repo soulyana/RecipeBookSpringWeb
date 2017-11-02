@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Recipe Book</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <!-- This is embedded stylesheet. -->
+    <!-- adding fonts to website to make it more attractive. Use google fonts by refrencing the css on the Google Fonts APIs CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="css/recipebookstyle.css">
+</head>
+<body>
+<div class="container">
+    <div class="well well-sm">
+        <!-- A simple navigation bar with Twitter Bootstrap -->
+        <!-- Start with the navigation bar. It should be within a nav element, and showld have the classes indictaed below.They can be default, inverse, or transparent-->
+        <nav class="navbar navbar-inverse">
+            <!-- Make sure the container is available so that the content can be appropriately laid out -->
+            <div class="container-fluid">
+                <!-- if you want a prominent place to show the name of the application or website, use a brand. Remember that the text (and navbar) can be styled to suit the 'client'-->
+                <div class="navbar-header">
+                    <!-- Create a button to display the navbar when the screen is collapsed. This is why you add the collapsed class to the button-->
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#my-collapsible-navbar"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-envleope"></span>
+                    </button>
+
+                    <a class="navbar-brand">My Recipe Book</a>
+                </div>
+                <!-- Include an unordered list for the navigation links -->
+                <div class="collapse navbar-collapse" id="my-collapsible-navbar">
+                    <!-- Surrond the nav bar with a div that tells the navbar that it will display the content when the data target #my-collapsible-navbar is toggled -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="crabcake.html">Crabcake</a></li>
+                        <li><a href="eggsauce.html">Egg Sauce</a></li>
+                        <li><a href="golabjamun.html">Golab Jamun</a></li>
+                        <li><a href="injera.html">Injera</a></li>
+                        <li><a href="makhrouds.html">Makhrouds</a></li>
+                        <li><a href="wings.html">Wings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                    <img class="standardimage img-tumbnail" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Sriracha_chicken_wings_%2810832723804%29.jpg"
+                         alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Sichuan Chicken Wings</h4>
+                    <p class="group inner list-group-item-text">
+                        Perfect for game day or a fun weeknight dinner!</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 6</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="wings.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="standardimage img-tumbnail" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg"
+                     alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Makhrouds</h4>
+                    <p class="group inner list-group-item-text">
+                        Algeria and Tunisia</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 8</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="makhrouds.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="standardimage img-tumbnail" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg"
+                     alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Egg Sauce</h4>
+                    <p class="group inner list-group-item-text">
+                        Nigeria.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 2</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="eggsauce.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="standardimage img-tumbnail" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg"
+                     alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Injera</h4>
+                    <p class="group inner list-group-item-text">
+                        Ethiopia.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 2</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="injera.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="standardimage img-tumbnail" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg"
+                     alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Golab Jamun</h4>
+                    <p class="group inner list-group-item-text">
+                        India.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 4</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="golabjamun.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="standardimage img-tumbnail" src="https://c1.staticflickr.com/5/4154/4976761276_7edb1bfeb7_b.jpg"
+                     alt="this is a crabcake image"/>
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Crabcake</h4>
+                    <p class="group inner list-group-item-text">
+                        Asian inspired crab cakes.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                Serves 4</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="crabcake.html">GET THE RECIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
